@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: #f6f5ef;
+    border-top: 2px solid black;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+#container{
+    background: url(../images/bg_st.jpg);
+    text-align: center;
+}
+
+.member{
+    display: inline-block;        
+    background-color: white;
+    color: #777;
+    font-size: 14px;
+    width: 600px;
+}
+
+.member th{
+    font-size: 17px;
+    font-weight: 400;
+    border-bottom: 1px solid #ddd;
+    line-height: 3;
+}
+
+h2{
+    color: white;
+    font-size: 25px;
+    line-height: 3;  
+}
+/* 후손은 띄어쓰기 */
+.member .greenText{
+    color: #006633;
+}
+
+.member input{
+    width: 90%;
+    line-height: 40px;
+    border: 1px solid #ddd;
+}
+
+#saveId{
+    width: 20px;
+}
+#saveId + label{
+    color: #333;
+    font-size: 17px;
+}
+.left{
+    text-indent: 2px;
+    text-align: left;
+}
+.member button{
+    width: 90%;
+    line-height: 50px;
+    background-color: #006633;
+    border: 0;
+    color: white;
+    font-size: 20px;
+}
+.btn a{
+    text-decoration: none;
+    color: #777;
+    font-size: 16px;    
+    line-height: 3;
+}
+footer{
+    background-color: #2C2A29;
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+address{
+    font-style: normal;
+    font-size: 12px;
+}

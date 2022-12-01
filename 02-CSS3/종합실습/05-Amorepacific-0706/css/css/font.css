@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'AritaDotum';
+    src: url(../font/Arita-Dotum-Medium.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AritaDotum';
+    src: url(../font/Arita-Dotum-SemiBold.woff) format("woff");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Buri';
+    src: url(../font/Arita-buri-SemiBold.woff) format("woff");
+    font-weight: 400;   
+}
+@font-face{
+    font-family: fontello;
+    font-weight: 400;
+    src: url(../font/fontello.woff2) format("woff");
+}
+
+.icon-search:before {
+    content: '\e81a';
+}
+.dl-more::after{
+    content: '';
+    font-family: fontello;
+    margin-left: 5px;
+}
+.icon-menu::before{
+    content: '\e811';
+}

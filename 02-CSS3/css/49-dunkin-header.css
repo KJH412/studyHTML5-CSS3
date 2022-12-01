@@ -1,0 +1,112 @@
+/* 공통사항 */
+/* 모든 요소의 바깥여백,안쪽 여백 0 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* li 앞에 장식 제거하기 */
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #736a60;
+}
+
+/* 글씨설정, 글자크기 */
+body {
+    font-family: "Nanum Barun Gothic", "나눔고딕", "dotum", sans-serif;
+    font-size: 12px;
+}
+
+header {
+    background: #f8faf0;
+    border-top: 4px solid #2c1810;
+}
+
+.innerBox {
+    max-width: 1200px;
+    background-color: rgba(255, 0, 0, 0.2);
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    text-align: center;
+    padding: 35px 0;
+}
+
+.leftGnb {
+    position: absolute;
+    top: 50px;
+}
+
+.leftGnb>li {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.rightGnb {
+    position: absolute;
+    right: 0;
+    top: 35px;
+}
+
+.rightGnb>li {
+    display: inline-block;
+    line-height: 45px;
+    margin-left: 25px;
+}
+
+.rightGnb>li>a {
+    display: block;
+}
+
+.rightGnb>li:first-child>a {
+    color: #ff6000;
+}
+
+.rightGnb>li:last-child>a {
+    background: url(../images/icon_search.png) no-repeat 100%;
+    padding-right: 60px;
+}
+
+.headBottom {
+    background: white;
+    border-bottom: 1px solid #e5e2e0;
+    border-top: 1px solid #e5e2e0;
+    text-align: center;
+}
+
+.member,
+#nav {
+    display: inline-block;
+}
+
+.member>li,
+#nav>li {
+    display: inline-block;
+    line-height: 54px;
+    padding: 0 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+}
+
+#nav {
+    margin-left: 200px;
+}
+
+.sub {
+    background-color: greenyellow;
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+#nav:hover .sub {
+    display: block;
+}

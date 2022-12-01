@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    background: #f6f5ef;
+    border-bottom: 1px solid #f6f5ef;
+}
+
+.innerBox {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.gnb {
+    float: right;
+    display: flex;
+}
+
+.gnb>li {
+    margin: 10px;
+}
+
+#searchBox {
+    float: right;
+    margin: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    background: white;
+    position: relative;
+    margin-top: 10px;
+    line-height: 30px;
+    width: 30px;
+    transition: 1s;
+    overflow: hidden;
+}
+
+#searchBox>input {
+    line-height: 30px;
+    height: 30px;
+    width: calc(100% - 24px);
+    border: 0;
+}
+
+#searchBox>label {
+    position: absolute;
+    left: 5PX;
+    top: 0;
+    display: none;
+}
+
+#searchBox>a {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+#searchBox img {
+    width: 25px;
+}
+
+#searchBox:target{
+    width: 180px;
+}
+
+#searchBox:target label{
+display: block;
+}

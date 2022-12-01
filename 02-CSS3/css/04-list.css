@@ -1,0 +1,19 @@
+/* class="list"의 자식요소list */
+.list>li{
+    /* list-style-type:circle ; */
+    /* list-style-type: square; */
+    list-style-type: disc;
+
+}
+.top>li{
+    /* list-style-type: circle; */
+    /* list-style-position: inside; */
+    list-style: none;
+
+}
+ol>li{
+    list-style:upper-roman;
+}
+.img>li{
+    list-style-image: url(../images/ico_arrow.gif);
+}

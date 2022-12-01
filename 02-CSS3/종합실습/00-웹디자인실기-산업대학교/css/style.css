@@ -1,0 +1,28 @@
+.innerBox {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(199, 231, 244, 0.5);
+}
+/* header */
+header {
+    background-color: aqua;
+}
+
+.logo{
+    float: left;
+    padding: 20px 20px;
+}
+
+#nav{
+    
+}
+
+
+#nav>li>a{
+    float: right;
+    background-color: floralwhite;
+}
+
+.sub{
+    display: none;
+}

@@ -1,0 +1,11 @@
+h1{
+    background-color: skyblue;
+}
+body{
+    /* background-color: antiquewhite;
+    background-image: url(../images/floating.png);
+    background-repeat: no-repeat;
+    background-position: center 100px;
+    background-attachment: fixed; */
+    background: antiquewhite url(../images/floating.png) no-repeat center 200px fixed;
+}

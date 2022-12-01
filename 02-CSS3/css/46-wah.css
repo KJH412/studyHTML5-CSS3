@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.board {
+    border: 1px solid #ccc;
+    width: 480px;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.board>ul {
+    margin-left: 120px;
+
+}
+
+.board>ul>li {
+    background-color: pink;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.board>ul a {
+    display: inline-block;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.board>ul span{
+    background-color: green;
+    position: absolute;
+    right: 0
+}
+.more{
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}

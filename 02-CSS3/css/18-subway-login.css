@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+header{
+    border-top: 5px solid #009223;
+    border-bottom: 1px solid #ccc;
+    line-height: 2.5;
+    text-align: center;
+}
+
+#container{
+    text-align: center;
+    background-color: #f6f6f6;
+}
+
+table{
+    display: inline-block;
+    background-color: white;
+}
+
+table caption{
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 3;
+}
+
+table .line{
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+table button{
+    background-color: #009223;
+    width: 100%;
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+table label{
+    display: inline-block;
+    width: 140px;
+    text-align: left;
+}
+
+footer{   
+    background-color: #292929;
+    color: #666;
+}
+
+address{
+    font-style: normal;
+    font-size: 13px;
+    line-height: 2;
+    text-align: center;
+}
+
+/* address>p>span 꺽쇠는 자식,띄어쓰기는 후손*/
+/* address p span 후손형태로 써도됨*/
+address span{
+    border-right: 1px solid #666;   
+}
+address .last{
+    border-right: none;
+}

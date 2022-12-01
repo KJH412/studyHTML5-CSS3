@@ -1,0 +1,29 @@
+h1{
+    background-color: antiquewhite;
+    width: 500px;
+}
+
+.box1{
+    background-color: skyblue;
+    width: 50%;
+}
+.box1 span{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+}
+
+.box2{
+    background-color: pink;
+    width: 50%;
+    height: 200px;
+}
+
+.box3{
+    background-color: darksalmon;
+    width: 400px;
+}
+/* 이미지 너비 조절 가능(너비or높이 하나만!) */
+.box3 img{
+    width: 100%;
+}

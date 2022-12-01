@@ -1,0 +1,46 @@
+h1{
+    font-size: 18px;
+    color: navy;
+}
+.table{
+    width: 1000px;    
+    line-height: 2;
+    border-collapse: collapse;
+    border-top: 2px solid rgb(10, 10, 177);
+}
+
+,table thead th{
+    background-color: #eee;
+}
+
+.table .text{
+    color: green;
+    border-right: 1px solid #ccc; 
+    text-align: left;
+}
+
+.table td,
+.table tr{
+    border-bottom: 1px solid #ccc;    
+}
+
+/* .table th{    
+    font-size: 13px;
+    text-align: left;    
+    border-right: 1px solid #ccc;
+} */
+
+p{
+    color: black;
+}
+
+.table .bg{
+    background-color: #ddd;
+    text-align: center;
+    
+}
+
+.table a{
+    color: orangered;
+    text-decoration: none;
+}

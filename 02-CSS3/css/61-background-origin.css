@@ -1,0 +1,19 @@
+div{
+    width: 270px;
+    height: 300px;
+    background: pink url(../images/banner_20220523033233036.png) no-repeat;
+    margin: 10px;
+    border: 20px solid rgba(0,0,255,0.5);
+    padding: 30px;
+}
+/* 테두리부터 배경을 넣음 */
+.box2{
+    background-origin: border-box;
+}
+
+.box3{
+    background-origin: content-box;
+}
+.box4{
+    background-origin: padding-box;
+}

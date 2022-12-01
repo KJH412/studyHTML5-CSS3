@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #444;
+}
+body{
+    color: #444;
+    font-size: 14px;
+    line-height: 1.2;
+}
+header{
+    background: #062c5e;
+    line-height: 60px;
+}
+.innerBox{
+    max-width: 1260px;
+    /* background-color: rgba(255,0,0,0.5); */
+    margin: 0 auto;
+}
+
+.logo{
+    width: 170px;
+}
+.logo img{
+    width: 100%;
+}
+
+footer{
+    margin-top: 100px ;
+    border-top: 1px solid #e0e0e0;
+    text-align: center;
+    padding: 50px 0 10px;
+}
+.footMenu>li{
+    display: inline-block;    
+    border-right: 1px solid #ccc;
+    padding: 0 10px 0 6px;
+    line-height: 0.9;
+}
+.footMenu>li:last-child{
+    border-right: none;
+}
+footer p{
+    margin: 30px 0;
+    font-size: 0.9em;
+}
+/* body에 준 14px기준 90% */
+
+.sns>li{
+    display: inline-block;
+    text-indent: -9999px;
+}
+.sns>li>a{
+    display: block;
+    width: 26px;
+    height: 23px;
+    background-size: contain;    
+    background-repeat: no-repeat;
+}
+
+.sns>li:first-child>a{
+    width: 13px;
+    background-image: url(../images/facebook.png);
+}
+.sns>li:first-child>a:hover{
+    background-image: url(../images/facebook_over.png);
+}
+.sns>li:nth-child(2)>a{
+    background-image: url(../images/linked_in.png);
+}
+.sns>li:nth-child(2)>a:hover{
+    background-image: url(../images/linked_in_over.png);
+}
+.sns>li:nth-child(3)>a{
+    background-image: url(../images/youtube.png);
+}
+.sns>li:nth-child(3)>a:hover{
+    background-image: url(../images/youtube_over.png);
+}
+.sns>li:nth-child(4)>a{
+    background-image: url(../images/insta.png);
+}
+.sns>li:nth-child(4)>a:hover{
+    background-image: url(../images/insta_over.png);
+}
+.sns>li:nth-child(5)>a{
+    background-image: url(../images/square.jpg);
+}
+.sns>li:nth-child(5)>a:hover{
+    background-image: url(../images/square_over.jpg);
+}
+small{
+    display: block;
+    margin-top: 20px;
+}

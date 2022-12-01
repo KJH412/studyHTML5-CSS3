@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    border: 5px solid black;
+    background-color: skyblue;
+    margin-bottom: 20px;
+}
+.box1{
+    padding-top: 20px;
+}
+.box2{
+    padding: 50px;
+}
+.box3{
+    padding: 20px 150px;
+}
+.box4{
+    padding: 10px 100px 200px;
+}
+.box5{
+    padding: 10px 100px 30px 200px;
+}
+span{
+    background-color: hotpink;
+    padding: 50px 100px;
+}
+
+li{
+    list-style: none;
+}

@@ -1,0 +1,17 @@
+.quick>li>a{
+    background-image: url(../images/icon_quickmenu.png);
+    display: block;
+    width: 70px;
+    height: 70px;
+    text-indent: -9999px;
+}
+
+.quick>.quick2>a{
+    background-position-x: -70px;
+}
+.quick>.quick3>a{
+    background-position-x: -140px;
+}
+.quick>.quick4>a{
+    background-position-x: -210px;
+}

@@ -1,0 +1,19 @@
+ul>li>a:link{
+    color: pink;
+}
+ul>li>a:hover{
+    color: green;
+}
+ul>li>a:active{
+    color: orange;
+}
+ul>li>a:visited{
+    color: #222;
+}
+ol>li>a{
+    color: royalblue;
+}
+ol>li>a:hover{
+    color: salmon;
+    text-decoration: none;
+}

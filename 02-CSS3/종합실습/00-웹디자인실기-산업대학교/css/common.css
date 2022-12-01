@@ -1,0 +1,35 @@
+/* 공통사항 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    vertical-align: top;
+}
+
+address,i,em {
+    font-style: normal;
+}
+
+body {
+    font-family: "돋움", dotum, sans-serif;
+    font-size: 15px;
+    color: #333;
+}
+
+.clearFix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+

@@ -1,0 +1,21 @@
+/* 첫번째 li의 글자 크기를 30px */
+.list>li:first-child{
+    font-size: 30px;
+}
+/* 두번째 li 밑줄 */
+.list>li:nth-child(2){
+    text-decoration: underline;
+}
+/* 마지막 li 기울기 글자색 초록*/
+.list>li:last-child{
+    color: green;
+    font-style: italic;
+}
+/* 짝수번째를 배경을 pink */
+.list>li:nth-child(2n){
+    background: pink;
+}
+/* 홀수번째 배경을 하늘색 */
+.list>li:nth-child(2n+1){
+    background: skyblue;
+}

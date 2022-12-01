@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+
+header{
+    border-top: 5px solid #009223;
+}
+
+.innerBox{
+    width: 1170px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    text-align: center;
+}
+/* 오류 */
+/* 첫번째 요소에 margin-top을 주면 부모요소에 적용이 됨.
+그래서 보통 padding을 줌. */
+.logo{
+    /* margin-top: 30px;*/
+    padding-top: 30px;
+}

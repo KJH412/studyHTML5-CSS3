@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+body {
+    font-family: "Nanum Barun Gothic", "나눔고딕", "dotum", sans-serif;
+    font-size: 14px;
+}
+
+.innerBox {
+    /* background-color: aqua; */
+    width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+header {
+    background: #fff;
+    border-top: 5px solid #009223;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.logo {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.rightGnb {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.rightGnb>li {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 20px;
+    font-size: 13px;
+    color: #666666;
+}
+
+.rightGnb>li>a {
+    display: block;
+}
+
+.rightGnb>li:last-child>a {
+    background: url(../images/icon_utill_global.png) no-repeat;
+    padding-right: 60px;
+    text-indent: -9999px;
+}
+
+.headBottom {
+    background: white;
+    text-align: center;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav>li {
+    /* background-color: pink; */
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 54px;
+    padding: 15px 50px;
+    position: relative;
+}
+
+#nav:hover .sub{
+    background-color: white;
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.sub {
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+
+.sub>li>a {
+    font-size: 15px;
+    color: #666666;
+}
+
+
+.mainBanner{
+    background-color: aqua;
+    margin: 0 auto;
+    width: 1920px;
+    height: 440;
+}
+.mainBanner img{      
+    width:100%;
+   background-position: center;
+    z-index: 0;
+    position: relative;
+}
+
+/* .innerBox>.mainBanner>a{
+    background-position: center center;
+} */
+
+
+.quickWrap>li>a{
+    display: block;
+    width: 300px;
+    line-height: 80px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.quickWrap>.quick1>a{
+    background-color: #ffce32;
+    background-image: url(../images/icon_map.png);
+    background-repeat: no-repeat;
+    background-position: 70px 26px;
+    border-radius: 30px 0 0 0;
+    position: absolute; 
+    right: 350px; 
+    bottom: -50px;
+    color: black;
+}
+.quickWrap>.quick2>a{
+    background-color: #009223;
+    background-image: url(../images/icon_franchise.png);
+    background-repeat: no-repeat;
+    background-position: 45px 26px;
+    border-radius: 0 0 30px 0;
+    text-indent: 20px;
+    position: absolute;
+    right: 50px;
+    bottom: -50px;
+    color: white;
+}
+    

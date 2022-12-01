@@ -1,0 +1,249 @@
+/* 공통사항 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    vertical-align: top;
+}
+
+address,
+i,
+em {
+    font-style: normal;
+}
+
+body {
+    font-family: "돋움", "dotum", sans-serif;
+    font-size: 15px;
+    color: #333;
+}
+
+/* .clearFix::after{
+} */
+.innerBox {
+    width: 1200px;
+    /* background-color: rgba(255, 0, 0, 0.3); */
+    margin: 0 auto;
+}
+
+/*header*/
+header {
+    border-top: 2px solid #00C73C;
+    border-bottom: 1px solid #ddd;
+}
+
+header>.innerBox {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo {
+    margin: 30px 0;
+    position: relative;
+    /* z-index: 100; */
+}
+
+#nav {
+    margin: 50px 25px 0 0;
+    display: flex;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+}
+
+#nav>li {
+    position: relative;
+}
+
+#nav>li>a {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    width: 170px;
+}
+
+#nav>li:hover>a {
+    background: #00C73C;
+    color: white;
+}
+
+.sub {
+    display: none;
+    background: #737373;
+    position: absolute;
+    width: 100%;
+    line-height: 35px;
+    height: 160px;
+}
+
+#nav:hover .sub {
+    display: block;
+}
+
+.sub>li>a {
+    color: white;
+    display: block;
+}
+
+.sub>li>a:hover {
+    background: white;
+    color: #737373;
+}
+
+.bg {
+    width: 100%;
+    height: 160px;
+    background: #737373;
+    position: absolute;
+    top: 100px;
+    display: none;
+    z-index: 10;
+}
+
+#nav:hover+.bg {
+    display: block;
+}
+
+/* 메인배너 */
+/* 배너 flex 권하지 않음. */
+#mainBanner {
+    height: 300px;
+    overflow: hidden;
+}
+
+.banner {
+    /* display: flex; */
+}
+
+.banner>li {
+    position: relative;
+}
+
+.textBox {
+    position: absolute;
+    font-size: 30px;
+    background: rgba(0, 0, 0, 0.7);
+    left: 50%;
+    top: 100px;
+    width: 600px;
+    line-height: 100px;
+    color: white;
+    text-align: center;
+    margin-left: -300px;
+}
+
+#container {
+    display: flex;
+}
+
+#container>section {
+    width: 400px;
+    padding: 0 10px;
+}
+
+#container>section .title {
+    line-height: 50px;
+}
+
+.noticeWrap {
+    line-height: 2;
+}
+
+.noticeWrap ul>li>a {
+    display: flex;
+    justify-content: space-between;
+}
+
+.galleryWrap ul{
+    display: flex;
+    text-align: center;
+}
+.galleryWrap ul span>img{
+    width: 90%;
+}
+.galleryWrap ul span{
+    display: block;
+}
+.quick{
+    line-height: 2.5;
+    background: white url(../images/ae_126.jpg) no-repeat 100%;
+    height: 130px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 10px 0 0 20px;
+}
+
+/* footer */
+footer{
+    border-top: 1px solid #737373;
+}
+footer>.innerBox{
+    display: flex;
+}
+footer small{
+   flex: 1;
+   text-align: center;
+   line-height: 100px;
+}
+.footRight .sns{
+    display: flex;
+    margin-top: 20px;
+}
+.footRight .sns>li{
+    margin: 0 10px;
+}
+footer form{
+    margin: 10px;
+}
+footer form select{
+    width: 100%;
+}
+/* 팝업 popupBg */
+.popupBg{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 500;
+}
+.popup{
+    width: 600px;
+    height: 400px;
+    background: white;
+    position: absolute;
+    left: 50%;
+    top: 120px;
+    margin-left: -300px;
+}
+.popup>h2{
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+.popup .txt{
+    margin: 0 20px;
+    line-height: 2.5;
+}
+.close{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}

@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.sns {
+    text-align: center;
+}
+
+.sns>li {
+    display: inline-block;
+}
+
+.sns>li>a {
+    display: block;
+    border: 1px solid #c8bfb0;
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+}
+
+.sns>li>a::before {
+    content: " ";
+    display: inline-block;
+    width: 26px;
+    height: 19px;
+    background: url(../images/icon_sns_l.png);
+    margin-top: 20px;
+}
+.sns>li:nth-child(2)>a::before{
+    background-position: 0 -19px;
+}
+.sns>li:nth-child(3)>a::before{
+    background-position: 0 -38px;
+}
+.sns>li:nth-child(4)>a::before{
+    background-position: 0 -57px;
+}
+.sns>li:nth-child(5)>a::before{
+    background-position: 0 -73px;
+}

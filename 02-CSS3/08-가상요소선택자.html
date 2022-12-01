@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            background-color: antiquewhite
+        }
+        p::before{
+            content: "앞으로";
+            font-size: 30px;
+            color: red;
+        }
+        p::after{
+            content: "end";
+            font-size: 50px;
+        }
+        p::first-letter{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>가상요소 선택자</h1>
+    <p>이곳을 기준으로</p>
+</body>
+</html>

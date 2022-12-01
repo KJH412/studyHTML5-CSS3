@@ -1,0 +1,25 @@
+/* 전역변수 만들기 */
+:root{
+    --mainColor: #009223;
+    --ice: blue;
+}
+
+header{
+    border-top: 5px solid var(--mainColor);
+
+}
+nav{
+    /* color: var(--mainColor); */
+    /* color: var(--red); 지역변수 적용x */
+    color: var(--ice);
+}
+/* 지역변수 */
+#container{
+    --red:rgba(255,0,0,0.8);
+}
+#container>h2{
+    color: var(--mainColor);
+}
+#container>p{
+    color: var(--red);
+}

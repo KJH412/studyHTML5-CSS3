@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #292929;
+}
+
+.innerBox {
+    background-color: antiquewhite;
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header {
+    border-top: 5px solid #009223;
+
+}
+
+.logo {
+    text-align: center;
+    padding: 35px;
+}
+
+.gnb {
+    position: absolute;
+    right: 0;
+    top: 45px;
+}
+
+.gnb>li {
+    display: inline-block;
+
+}
+
+/* 일부로 line-height준것임. */
+.gnb>li>a {
+    font-size: 13px;
+    color: #666;
+    line-height: 30px;
+    display: block;
+}
+
+/* 너비 안주고 들여쓰기만 하면 사라짐. */
+.gnb>li:last-child>a {
+    width: 30px;
+    background: url(../images/icon_utill_global.png) no-repeat;
+    text-indent: -99999px;
+}
+
+.gnb>li:first-child {
+    background-color: antiquewhite;
+    position: relative;
+    padding-right: 10px;
+}
+
+.gnb>li:first-child:after {
+    content: "";
+    width: 2px;
+    height: 2px;
+    background: red;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.headBottom{
+    text-align: center;
+}
+#nav{
+    display: inline-block;
+}
+#nav>li{
+    display: inline-block;
+    padding: 20px 40px;
+    position: relative;
+    background-color: aqua;
+}
+#nav>li>a{
+    font-size: 18px;
+    font-weight: bold;
+}
+.sub{
+    position: absolute;
+    line-height: 2.2;
+    padding: 20px 0 0;
+    width: 100%;
+    left: 0;
+    display: none;
+    background-color: pink;
+}
+#nav:hover .sub{
+    display: block;
+}
+#mainBanner img{
+    width: 100%;
+}
+
+.quickWrap{
+    position: absolute;
+    right: 0;
+    top: -40px;
+}
+.quickWrap>div{
+    width: 400px;
+    line-height: 80px;
+    font-size: 22px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+}
+.quickWrap> .store{
+    background: #ffce32;
+}
+.quickWrap> .franchise{
+    background: #009223;
+}

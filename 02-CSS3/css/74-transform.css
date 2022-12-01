@@ -1,0 +1,23 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    border: 5px solid black;
+    margin: 10px;
+    transition: 0.5s;
+}
+#box1:target{
+    transform: translate(500px,100px);
+}
+.box2:hover{
+    transform: scale(2);
+}
+.box3:hover{
+    transform: skewY(60deg);
+}
+.box4:hover{
+    transform: rotate(360deg);
+}
+.box5:hover{
+    transform: scale(2) rotate(180deg);
+}

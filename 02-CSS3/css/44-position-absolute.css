@@ -1,0 +1,31 @@
+.wrap{
+    width: 600px;
+    background-color: antiquewhite;
+    border: 10px solid black;
+    margin: 0 auto;
+    position: relative;
+}
+/* .wrap(position: relative;)이 포지션:앱솔루트의 기준이 됨 */
+/* 부모가 높이가 없어짐.(자식 다 position: absolute;주면) */
+.wrap>div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+}
+.wrap>.box1{
+    background-color: salmon;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}
+.wrap>.box2{
+    background-color: deepskyblue;
+    position: absolute;
+    left: 60px;
+    top: 60px;
+}
+.wrap>.box3{
+    background-color: green;
+    position: absolute;
+    top: 90px;
+}

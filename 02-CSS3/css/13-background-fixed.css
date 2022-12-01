@@ -1,0 +1,17 @@
+div{
+    height: 400px;
+    background-color: #eee;
+    font-size: 80px;
+}
+
+.box2{
+    background-image: url(../images/mainBanner_202203310349132860.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.box4{
+    background-image: url(../images/mainBanner_202203310353551130.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+}

@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.innerBox {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+header {
+    background-color: skyblue;
+}
+
+/* float 부모요소 .innerBox */
+header>.innerBox {
+    /* height: 100px; */
+    /* float: left; */
+    /* overflow: hidden; 서브가 안보임*/
+}
+
+/* header>.innerBox::after{
+    content: "";
+    display: block;
+    clear: both;
+} */
+
+.clearFIx::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* 첨부터 부모요소에 클리어픽스를 주기. */
+
+
+.logo {
+    float: left;
+    margin-top: 20px;
+}
+
+.gnb {
+    float: right;
+    background-color: aqua;
+    margin-top: 10px;
+}
+
+.gnb>li {
+    float: left;
+    margin-left: 15px;
+}
+
+#nav {
+    clear: both;
+    float: right;
+}
+
+#nav>li {
+    float: left;
+    margin-left: 100px;
+    position: relative;
+}
+
+
+#nav:hover .sub {
+    display: block;
+}
+
+.sub {
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    background-color: white;
+}
+
+#container {
+    background-color: antiquewhite;
+}
+
+.con1{
+
+}
+
+.con1>div {
+    height: 200px;
+}
+
+.con1>.box1 {
+    width: 200px;
+    background-color: blueviolet;
+    float: left;
+}
+
+.con1>.box2 {
+    width: 500px;
+    background-color: green;
+    float: left;
+}
+
+.con1>.box3 {
+    width: 300px;
+    background-color: dodgerblue;
+    float: right;
+}
+
+footer {
+    background-color: #ccc;
+    /* clear: both; */
+}

@@ -1,0 +1,42 @@
+p{
+    font-size: 25px;
+    background-color: antiquewhite;
+    line-height: 2;
+}
+
+.cursor1{
+    cursor: all-scroll;
+}
+.cursor2{
+    cursor: all-scroll;
+}
+.cursor3{
+    cursor: cell;
+}
+.cursor4{
+    cursor: col-resize;
+}
+.cursor5{
+    cursor: copy;
+}
+.cursor6{
+    cursor: crosshair;
+}
+.cursor7{
+    cursor: grab;
+}
+.cursor8{
+    cursor: grabbing;
+}
+.cursor9{
+    cursor: help;
+}
+.cursor10{
+    cursor:pointer;
+}
+.cursor11{
+    cursor: zoom-out;
+}
+.cursor12{
+    cursor:url(../images/icon.png),auto;
+}

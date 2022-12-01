@@ -1,0 +1,56 @@
+body{
+    padding: 50px;
+}
+
+.imgWrap{
+    border: 1px solid black;
+    width: 381px;
+    position: relative;
+}
+.imgWrap::before,
+.imgWrap::after,
+.imgWrap>a::before,
+.imgWrap>a::after{
+content: "";
+display: block;
+background: red;
+position: absolute;
+transition: 1s;
+}
+
+/* 가로 윗선 */
+.imgWrap::before{
+    width: 0%;
+    height: 1px;
+    left: -1px;
+    top: -1px;
+}
+/* 가로 아래선 */
+.imgWrap::after{
+    width: 0%;
+    height: 1px;
+    right: -1px;
+}
+/* 세로선 앞 */
+.imgWrap>a::before{
+    width: 1px;
+    height: 0%;
+    left: -1px;
+}
+.imgWrap>a::after{
+    width: 1px;
+    height: 0%;
+    right: -1px;
+    top: -1px;
+}
+.imgWrap:hover{
+    border: 1px solid transparent;   
+}
+.imgWrap:hover::before,
+.imgWrap:hover::after{
+    width: calc( 100% + 1px);
+}
+.imgWrap>a:hover::before,
+.imgWrap>a:hover::after{
+    height: calc( 100% + 1px);
+}

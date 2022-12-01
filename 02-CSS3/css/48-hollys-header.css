@@ -1,0 +1,83 @@
+/* 공통사항 */
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+body{
+    font-size: 12px;
+}
+
+header{
+    border-bottom: 2px solid #b60b13;
+}
+
+.innerBox{
+    width: 1200px;
+    background-color:  rgba(0,0,255,0.2);
+    margin: 0 auto;
+    position: relative;
+}
+/* 지금은 로고에 position 주지 않음. */
+.logo{
+    text-align: center;
+    /* background-color: aliceblue; */
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.gnbLeft{
+    position: absolute;
+    top: 20px;
+}
+
+.gnbLeft>li{
+    display: inline-block;
+}
+
+.gnbRight{
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+.gnbRight>li{
+    display: inline-block;
+}
+.headBottom{
+    background-color: pink;
+}
+#nav{
+    text-align: center;
+}
+#nav>li{
+    display: inline-block;
+    padding: 20px 50px;
+    background-color: green;
+    position: relative;
+}
+#nav>li>a{
+    font-size: 20px;
+    font-weight: bold;    
+    background-color: greenyellow;
+}
+.sub{
+    display: none;
+    position: absolute;
+    background-color: skyblue;
+    width: 100%;
+    left: 0;
+    top: 67px;
+    line-height: 2.2;
+}
+#nav:hover .sub{
+    display: block;
+}
+#mainBanner>img{
+    width: 100%;
+}

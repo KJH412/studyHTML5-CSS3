@@ -1,0 +1,33 @@
+h1{
+    border-color: pink;
+    border-width: 2px;
+    border-style: solid;
+}
+.box{
+    border: 5px solid skyblue;
+}
+span{
+    border-right: 2px dotted red;
+}
+table{
+    width: 600px;
+    border-top: 2px solid salmon;
+    border-bottom: 2px solid salmon;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid #ccc;
+}
+
+.row1>td{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+table.colFirst{
+    border-left: 0;
+}
+
+tanle.colLast{
+    border-right: 0;
+}

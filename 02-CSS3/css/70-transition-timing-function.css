@@ -1,0 +1,33 @@
+.wrap{
+    max-width: 600px;
+    border: 5px solid black;
+}
+.wrap>div{
+    width: 10px;
+    height: 50px;
+    margin: 10px;
+    background-color: cornflowerblue;
+    transition-duration: 6s;
+}
+
+.wrap:hover>div{
+width: calc(100% - 20px)
+}
+
+/* .box2 같은속도 linear */
+.box2{
+    transition-timing-function: linear;
+}
+.box3{
+    transition-timing-function: ease-out;
+}
+.box4{
+    transition-timing-function: ease-in-out;
+}
+.box5{
+    transition-timing-function: steps(5);
+}
+/* http://cubic-bezier.com  */
+.box6{
+    transition-timing-function: cubic-bezier(.45,1.55,.6,1.47);
+}

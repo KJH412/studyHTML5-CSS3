@@ -1,0 +1,29 @@
+div{
+    width: 600px;
+    height: 350px;
+    background-color: pink;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    background-position: center center;
+    background-image: url(../images/main_PC_1920x440_02_20220531024759727.jpg);
+}
+
+.box2{
+    background-size: 100%;
+}
+
+.box3{
+    background-size: 100% 100%;
+}
+
+/* contain은 이미지 높이가 유지됨.(비율유지) */
+.box4{
+    width: 100%;
+    background-size: contain;
+}
+
+/* 높이가 채워지고 나머지(너비) 보여줌.(높이기준)*/
+.box5{
+    height: 200px;
+    background-size: cover;
+}

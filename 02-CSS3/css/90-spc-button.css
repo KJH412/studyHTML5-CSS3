@@ -1,0 +1,54 @@
+body{
+    background-color: antiquewhite;
+}
+.button{
+    /* border: 1px solid black; */
+    background: white;
+    color: black;
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+}
+
+.button::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: navy;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);    
+    bottom: -50px;    
+}
+
+.button:hover::before{
+    animation: cirAni 1s infinite;    
+}
+
+@keyframes cirAni{
+    0%{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    100%{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        }
+}
+
+.button:hover span{
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%); 
+    color: white;
+}
+

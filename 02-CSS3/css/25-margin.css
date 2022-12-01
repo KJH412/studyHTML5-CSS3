@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #ddd;
+}
+h1{
+    background-color: antiquewhite;
+}
+p{
+    background-color: pink;
+}
+div{
+    background-color: skyblue;
+}
+.box1{
+    margin-top: 30px;
+}
+/* margin겹침현상 */
+.box2{
+    margin: 50px;
+}
+.box3{
+    margin: 100px 200px;
+}
+.box4{
+        /* (기본) margin-bottom: 100px; */
+    /* margin-block-end: 100px; */
+    
+    /* (기본) margin-right: 100px; */
+    margin-inline-end: 100px;
+}

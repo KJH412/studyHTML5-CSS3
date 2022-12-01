@@ -1,0 +1,17 @@
+.table{
+    width: 700px;
+    line-height: 2.2;
+    border-collapse: collapse;
+}
+.table>thead th{
+    border-bottom: 2px solid black;    
+    text-align: left;
+}
+
+.table th,
+.table td{
+    border-bottom: 1px solid #ccc;
+}
+.table .bg>*{
+    background-color: #ddd;
+}

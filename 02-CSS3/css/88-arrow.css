@@ -1,0 +1,44 @@
+.more{
+    background-color: antiquewhite;
+    line-height: 48px;
+    font-size: 12px;
+}
+.more>a{
+    display: flex;
+}
+
+.more>a>span{
+    margin-right: 10px;
+}
+
+.more>a>.arrowWrap{
+    /* display: flex; */
+    padding-right: 40px ;
+    position: relative;
+    width: 60px;
+}
+.more>a .arrow{
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    transition: 0.5s;
+}
+.more>a .hexa{
+    position: absolute;
+    right: 0;
+    opacity: 0;
+}
+.more>a:hover .hexa{
+    animation: hexaAni linear 3s  infinite ;
+    opacity: 1;
+}
+.more>a:hover .arrow{
+    left: 30px;
+}
+
+@keyframes hexaAni{
+    from{
+        transform: rotate(0);
+    }
+    to{transform: rotate(360deg);}
+}

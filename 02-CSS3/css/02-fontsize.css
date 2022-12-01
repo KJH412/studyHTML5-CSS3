@@ -1,0 +1,22 @@
+body{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 50px;
+}
+.size2{
+    font-size: 15px;
+}
+.size3{
+    font-size: 2em;
+    /* 내 문서의 부모요소가 기준(body20px의 두배) */
+}
+.size4{
+    font-size: 2rem;
+    /* 브라우저의 16px이 기준 */
+}
+.size5{
+    font-size: 2ex;
+    /* 소문자 x가 기준 */
+}

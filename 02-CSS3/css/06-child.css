@@ -1,0 +1,13 @@
+li{
+    list-style: none;    
+}
+
+/* 메인메뉴 크기 20px 글자색 #333 */
+.menu>li>a{
+    font-size: 20px;
+    color: #333;    
+}
+/* .menu 모든 a에서 밑줄 제거하기 */
+.menu>li a{
+    text-decoration: none;
+}

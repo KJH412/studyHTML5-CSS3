@@ -1,0 +1,153 @@
+/* .innerBox */
+.innerBox {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(255, 0, 0, 0.5);
+    position: relative;
+}
+
+/* pc 버전에서 안보이기 */
+.hamBtn {
+    display: none;
+}
+
+header {
+    border-top: 5px solid green;
+    padding-bottom: 40px;
+}
+
+.logo {
+    float: left;
+    margin-top: 20px;
+}
+
+.gnb {
+    float: right;
+}
+
+.gnb>li {
+    float: left;
+    margin: 10px 0 0 10px;
+}
+
+#nav {
+    position: absolute;
+    right: 0;
+    top: 70px;
+    display: flex;
+}
+
+#nav>li {
+    margin: 10px 50px;
+}
+
+#mainBanner {
+   text-align: center;
+    background-color: skyblue;
+}
+#mainBanner img{
+    width:100%;
+}
+
+#container>section{
+    padding: 50px 0;
+}
+.topWrap{
+    display: flex;
+    justify-content:space-between;
+}
+.topWrap>div{
+    height: 300px;
+    width: 25%;
+    font-size: 35px;
+}
+.topWrap>.box1{
+    background: greenyellow;
+}
+.topWrap>.box2{
+    width: 40%;
+    background:dodgerblue;
+}
+.topWrap>.box3{
+    background-color: orange;
+}
+.bottom{
+    background-color:#eee;
+}
+.bottomWrap{
+    display:flex;
+    justify-content: space-between;
+}
+
+.bottomWrap>div{
+    border: 1px solid black;
+    height: 150px;
+    width: 46%;
+    box-sizing: border-box;
+    background: white;
+}
+footer{
+    background-color: #333;
+    color: white;
+    line-height: 100px;
+}
+/* ipad 768~1279 */
+/* .gnb #nav 사라지도록 */
+/* .hamBtn 보이도록 */
+/* .innerBox 좌우 10px 여백이(padding) */
+/* .box1,.box3이 같은줄에 */
+@media screen and (max-width:1279px){
+    .innerBox{
+        padding:0 10px;
+        box-sizing:border-box;
+    }
+    .gnb{
+        display:none;
+    }
+    #nav{
+        width: 70%;
+        background: #ccc;
+        display:block;
+        top: 0;
+        right:-100%;
+    }
+    .hamBtn{
+        display:block;
+        position: absolute;
+        right: 10px;
+        top: 30px;
+    }
+    .topWrap,
+    .bottomWrap{ 
+        flex-wrap:wrap;
+    }
+    .topWrap>div{
+        height:30vW;
+        /* viewport width 기기 너비의 30%*/
+    }
+    
+    .topWrap>.box1{
+        order:1;      
+        width:48%; 
+    }
+    .topWrap>.box3{
+        order:2;
+        width:48%; 
+    }
+    .topWrap>.box2{
+        order:3;
+        width: 100%;
+    }   
+}
+/* mobile ~767 */
+/* 본문의 모든 내용이 100% */
+@media screen and (max-width:767px){    
+    .topWrap>div{   
+        width:100%!important;         
+    }
+    /* .bottomWrap{
+        flex-wrap: wrap; } 내용중복 상위에 써줌.*/
+    .bottomWrap>div{
+        width:100%;
+    }
+}

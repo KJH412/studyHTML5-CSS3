@@ -1,0 +1,10 @@
+/* dl의 자식으로 있는 dd중에 list2를 가지는 dd에 배경주기 */
+dl>dd:nth-child(2){
+    background: pink;
+}
+dl>dd:nth-of-type(2){
+    background: skyblue;
+}
+div>p:nth-of-type(3){
+    font-size: 30px;
+}

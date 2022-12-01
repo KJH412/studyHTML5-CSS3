@@ -1,0 +1,28 @@
+.wrap{
+    background-color: skyblue;
+    width: 800px;
+}
+.wrap>div{
+    background-color: pink;
+    border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.flexWrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.flexWrap>div{
+    width: 250px;
+}
+
+.gridWrap{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px 100px;
+}
+
+
+
